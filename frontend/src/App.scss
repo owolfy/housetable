@@ -1,0 +1,32 @@
+#root {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+}
+
+.main-container {
+  background-color: whitesmoke;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-container {
+  border: 2px solid rgb(109, 109, 109);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(26, 26, 26);
+  padding: 20px;
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+}
+
+.options-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  cursor: pointer;
+}

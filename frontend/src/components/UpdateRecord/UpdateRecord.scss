@@ -1,0 +1,27 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.update-container {
+  form {
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: flex;
+    max-height: 30vh;
+
+    .button-wrapper {
+      align-items: center;
+      margin-top: 24px;
+    }
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .update-container {
+    form {
+      max-height: 45vh;
+    }
+  }
+}
